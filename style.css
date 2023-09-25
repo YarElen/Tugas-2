@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Signika&display=swap');
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+    font-family: 'Signika', sans-serif;
+}
+
+.judulform{
+    text-align: center;
+    font-size: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.fClass{
+    border: 1px solid #041721;
+    padding: 20px;
+    margin: auto;
+    width: 50%;
+    border-radius: 7px;
+    background-color: #D8D8D8;
+    display: grid;
+    row-gap: 16px;
+}
+
+.Finput{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 3px;
+}
+
+label{
+    font-size: 20px;
+}
+
+input{
+    width: 100%;
+    padding: 5px;
+}
+
+input:focus{
+    border: 1px solid#FBB874 ;
+    outline: 2px solid #FBB874;
+}
+
+.btnsbmt{
+    padding: 5px 0;
+    color: #FFF;
+    background-color: #588157;
+    cursor: pointer;
+}
+
+.btnsbmt:hover{
+    background-color:#3A5A40;
+}
+
+input[type="file"] {
+    display: none;
+}
+.custom-file-upload {
+    width: 26%;
+    display: inline-xblock;
+    padding: 6px 12px;
+    cursor: pointer;
+}
+
+.judulprofile{
+    text-align: center;
+    font-size: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.layouting{
+    display: flex;
+    justify-content: space-between;
+}
+
+.image-size{
+    width: 100%;
+}
+
+.Profile{
+    margin: 0 auto ;
+    width: 80%;
+    margin-top: 60px;
+    padding: 16px;
+}
+
+.IMG{
+    width: 33%;
+}
+
+.datadiri{
+    padding: 16px;
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 18px;
+}
+
+.badan{
+    padding: 16px;
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+.btnedit{
+    padding: 5px 10px;
+
+}
+
+#show-name{
+    font-size: 30px;
+    font-weight: 500;
+}
+
+#show-hobby{
+    font-size: 20px;
+    font-weight: 50;
+}
+
+#edit-btn{
+    width: 50%;
+    background-color: #F4F1C9;
+    font-weight: 700;
+    margin-top: 25px;
+}
+
+#edit-btn:hover{
+    background-color: #FFF;
+    cursor: pointer;
+}
+
+#show-age{
+    font-size: 20px;
+    font-weight: 50;
+}
+
+#show-domicile{
+    font-size: 20px;
+    font-weight: 50;
+}
+
+#show-height{
+    font-size: 20px;
+    font-weight: 50;
+}
+
+#show-weight{
+    font-size: 20px;
+    font-weight: 50;
+}

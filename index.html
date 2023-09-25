@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas-2</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <h1 class="judulform">Section Form</h1>
+    <form id="addForm" class="fClass">
+        <div class="Finput">
+            <label for="fName">Nama </label>
+            <input id="fName" type="text">
+        </div>
+        <div class="Finput">
+            <label for="fHobby">Hobby </label>
+            <input id="fHobby" type="text">
+        </div>
+        <div class="Finput">
+            <label for="fAge">Usia </label>
+            <input id="fAge" type="number">
+        </div>
+        <div class="Finput">
+            <label for="fDomicile">Domisili </label>
+            <input id="fDomicile" type="text">
+        </div>
+        <div class="Finput">
+            <label for="fHeight">Tinggi </label>
+            <input id="fHeight" type="number">
+        </div>
+        <div class="Finput">
+            <label for="fWeight">Berat </label>
+            <input id="fWeight" type="number">
+        </div>
+        <div class="Finput">
+            <label for="file-upload" class="custom-file-upload">
+                <i class="fa-solid fa-cloud-arrow-up"></i>Custom Upload
+            </label>
+            <input id="file-upload" type="file" />
+        </div>
+        <button id="submit-btn" class="btnsbmt">SIMPAN</button>
+
+    </form>
+    <div id="show-user-profile" class="Profile">
+        <h1 class="judulprofile">Section Profile</h1>
+        <div class="layouting">
+            <div class="IMG">
+                <img id="show-image" src="" alt="" srcset="" class="image-size">
+            </div>
+            <div class="datadiri">
+                <h2 id="show-name"></h2>
+                <p id="show-hobby"></p>
+                <button id="edit-btn" style=" display: none;" class="btnedit">Edit</button>
+            </div>
+            <div class="badan">
+                <p id="show-age"></p>
+                <p id="show-domicile"></p>
+                <p id="show-height"></p>
+                <p id="show-weight"></p>
+            </div>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+
+</html>
